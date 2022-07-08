@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RadioGroup
+        android:checkedButton="@+id/mentor"
+        android:id="@+id/toggle"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="100dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/pink_out_line"
+        android:orientation="horizontal">
+
+    <RadioButton
+        android:layout_marginTop="1dp"
+        android:layout_marginBottom="1dp"
+        android:layout_marginLeft="1dp"
+        android:id="@+id/menti"
+        android:background="@drawable/toggle_widget_background"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:button="@null"
+        android:gravity="center"
+        android:text="Menti"
+        android:textSize="18sp"
+        android:textColor="@color/white" />
+
+    <RadioButton
+        android:layout_marginRight="1dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginBottom="1dp"
+        android:id="@+id/mentor"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@drawable/toggle_widget_background"
+        android:button="@null"
+        android:gravity="center"
+        android:text="Mentor"
+        android:textSize="18sp"
+        android:textColor="@color/white" />
+    </RadioGroup>
+</LinearLayout>
