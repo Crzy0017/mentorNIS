@@ -1,4 +1,4 @@
-package com.example.nismentor
+package com.example.nismentor.presentation.ui.registerpage
 
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentManager

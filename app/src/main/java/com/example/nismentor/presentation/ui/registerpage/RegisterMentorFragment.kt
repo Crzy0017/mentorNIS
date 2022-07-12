@@ -1,4 +1,4 @@
-package com.example.nismentor
+package com.example.nismentor.presentation.ui.registerpage
 
 import android.os.Bundle
 import android.util.Log
@@ -11,6 +11,9 @@ import android.widget.EditText
 import com.android.volley.Response
 import com.android.volley.toolbox.StringRequest
 import com.android.volley.toolbox.Volley
+import com.example.nismentor.R
+import com.example.nismentor.presentation.ui.userpage.User
+import com.example.nismentor.presentation.ui.userpage.UserPageFragment
 import org.json.JSONObject
 import org.json.JSONTokener
 

@@ -1,4 +1,4 @@
-package com.example.nismentor
+package com.example.nismentor.presentation.ui.registerpage
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -6,9 +6,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.RadioButton
-import androidx.viewpager2.widget.ViewPager2
-import com.google.android.material.tabs.TabLayout
-import com.google.android.material.tabs.TabLayoutMediator
+import com.example.nismentor.R
 
 class RegisterFragment : Fragment() {
 

@@ -1,4 +1,4 @@
-package com.example.nismentor
+package com.example.nismentor.presentation.ui.userpage
 
 import android.os.Parcelable
 import kotlinx.parcelize.Parcelize
